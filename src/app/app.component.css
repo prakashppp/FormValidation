@@ -1,0 +1,14 @@
+span{
+    color:red;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1332px){
+    #h11{
+        font-size: 40px !important;
+    }
+}
+
+small{
+    color:red;
+}
