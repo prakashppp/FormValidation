@@ -28,7 +28,7 @@
       </div>
 
       <div class="row">
-        <div class="col-6 "style="margin-left:10%">
+        <div class="col-md-6 "style="margin-left:10%">
         
           <form [formGroup]="nForm">
             Name<span>*</span>
@@ -88,7 +88,7 @@
               
             </div>
             
-            <button onclick="alert('Thanks for giving all information, Our team will contact you soon.')" type="submit" class="btn" [disabled]="!nForm.valid" style="margin-left:35%; margin-top:5%; margin-bottom:3%; width:200px; background-color:rgb(49, 219, 249)">Submit</button>
+            <button onclick="alert('Thanks for giving all information, Our team will contact you soon.')" (click)="resett()"type="submit" class="btn" [disabled]="!nForm.valid" style="margin-left:35%; margin-top:5%; margin-bottom:3%; width:200px; background-color:rgb(49, 219, 249)">Submit</button>
             
           </form>
         </div>

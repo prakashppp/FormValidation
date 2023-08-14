@@ -26,9 +26,13 @@ export class AppComponent {
       zipcode:['',[Validators.required,Validators.pattern("^[0-9]{5}")]],
       comment:['',[Validators.required,Validators.minLength(50)]]
     }
+
     
   )
 
+  resett(){
+    this.nForm.reset();
+  }
   
 
 
